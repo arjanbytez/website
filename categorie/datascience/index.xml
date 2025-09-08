@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datascience on Arjans Wereld</title>
+    <link>/categorie/datascience/</link>
+    <description>Recent content in Datascience on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Thu, 10 Oct 2019 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categorie/datascience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Verrassende data-visualisaties met Processing</title>
+      <link>/verrassende-data-visualisaties-met-processing/</link>
+      <pubDate>Thu, 10 Oct 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/verrassende-data-visualisaties-met-processing/</guid>
+      <description>De afgelopen tijd ben ik actief met het maken van generatieve kunst via de visualisatietool Processing. Op mijn twitteraccount @ArjanBytez verschijnen regelmatig nieuwe experimenten. Daarnaast is dezelfde tool erg geschikt voor het op weer eens een andere manier visualiseren van daadwerkelijke data. Nu is data visualisation de laatste jaren aan een behoorlijk opmars bezig waarbij software zoals Tableau, Datawrapper en vele anderen, en in Nederland Localfocus, rap populair geworden zijn. Processing is wat laagdrempeliger: je maakt met enkele regels code al een professioneel ogende creatieve uiting.</description>
+    </item>
+    
+    <item>
+      <title>Datascience coming up</title>
+      <link>/datascience-coming-up/</link>
+      <pubDate>Mon, 23 Apr 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/datascience-coming-up/</guid>
+      <description>Dit is een zogenaamde placeholder zodat je geen 404-melding krijgt 😎
+Binnenkort meer!</description>
+    </item>
+    
+  </channel>
+</rss>

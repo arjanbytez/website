@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nl-nl">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.39" />
+
+
+<title>Alle gebouwen in Nederland op de kaart (GIS-projectje) - Arjans Wereld</title>
+<meta property="og:title" content="Alle gebouwen in Nederland op de kaart (GIS-projectje) - Arjans Wereld">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+<link rel="stylesheet" href="/css/progress-indicator.min.css" media="all">
+<script src="/js/jquery.min.js"></script>
+<script src="/js/progress-indicator.min.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="schrijfsels en meningen van Arjan Zuidhof">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/categorie/aandachtsmanagement">Aandachtsmanagement</a></li>
+    
+    <li><a href="/categorie/algemeen">Algemeen</a></li>
+    
+    <li><a href="/categorie/bigtech">BigTech</a></li>
+    
+    <li><a href="/categorie/datascience">Data(science)</a></li>
+    
+    <li><a href="/categorie/gis">GIS</a></li>
+    
+    <li><a href="/about/">Over</a></li>
+    
+    <li><a href="/categorie/privacy">Privacy</a></li>
+    
+    <li><a href="/categorie/security">Security</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+<progress value=0></progress>
+  <article class="article">
+    
+    <span class="article-duration">leestijd 3 minuten</span>
+    
+
+    <h1 class="article-title">Alle gebouwen in Nederland op de kaart (GIS-projectje)</h1>
+
+    
+    <span class="article-date">2018/10/18</span>
+    
+               <div style="color:grey; font-size:16px;"><strong>Tags:</strong> <a href="/tags/visualisation">visualisation</a> <a href="/tags/maps">maps</a> <a href="/tags/netherlands">netherlands</a> 
+               <strong>Categories:</strong> <a href="/categorie/gis">GIS</a> </div>
+			   
+    <div class="article-content">
+      
+
+<p>Onlangs publiceerde de New York Times een interactief overzicht van <a href="https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html">alle gebouwen in de Verenigde Staten</a>.
+Dat veelbesproken project is ontzettend mooi uitgevoerd, vooral door de aandacht voor detail op alle zoomniveaus. Door de gebruikte techniek (vector tiles waarbij steeds een klein stukje van de kaart wordt ingeladen in plaats van alles in &eacute;&eacute;n keer) werkt de kaart bijzonder snel en effectief. Getoond wordt een minimum aan benodigde elementen om toch precies het juiste doel te bereiken; zo&rsquo;n minimalistische aanpak mag ik wel. Blijkbaar was het in de VS de eerste keer dat op zo&rsquo;n manier letterlijk alle gebouwen in kaart gebracht zijn. De hulp van kunstmatige intelligentie van Microsoft om <a href="https://github.com/Microsoft/USBuildingFootprints">gebouwen op satellietbeelden te traceren</a> (tech-alert!) en <a href="https://blog.mapbox.com/building-with-building-footprints-22ac88b863bf">de webtechnologie van kaartenmaken Mapbox</a> zijn onontbeerlijk om dat te bereiken.</p>
+
+<p>Toch is iets vergelijkbaars in Nederland dankzij het Kadaster ook al lang mogelijk, zij stellen het complete gebouwenbestand beschikbaar voor elke ge&iuml;nteresseerde. In hun BAG-viewer zie je voor het hele land <a href="https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=ten%20boer&amp;resultOffset=0&amp;objectId=1829&amp;geometry.x=242108.32&amp;geometry.y=588419.26894348&amp;zoomlevel=5&amp;detailsObjectId=1829">alle gebouwen op een vergelijkbare manier</a> maar dan niet minimalistisch en verrijkt met veel openbare pandinformatie.</p>
+
+<p>Nu vroeg ik mij af hoe snel ik zelf zo&rsquo;n interactieve viewer als die van de NYT kon maken: de BAG-gegevens zijn tenslotte gewoon te downloaden en GIS-software QGIS heeft enorm veel plugins beschikbaar om zoiets voor elkaar te krijgen.
+Al snel blijkt de <a href="http://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html">QGIS-plugin qgis2web</a> heel mooi te werken: het beeld dat je in je GIS-programma &ldquo;ziet&rdquo; kun je interactief naar een website omzetten. Nadelen: niet alles komt even goed over en bij grote hoeveelheden data (denk: alle gebouwen van Nederland) wordt de boel onwerkbaar. Even technisch: een export van heel NL op deze manier geeft een JavaScript-bestand van 3GB(!) met informatie over dus letterlijk alle gebouwen en die laat ook mijn toch vrij snelle laptop compleet uit het geheugen lopen 🔥 Anyway, het resultaat voor &eacute;&eacute;n klein dorpje <a href="http://allesvan.arjanzuidhof.nl/gis/alle-gebouwen-in-ten-boer/">vind je hier</a></p>
+
+<p><img src="/images/alle-gebouwen-in-ten-boer.png" alt="Alle gebouwen in Ten Boer" /></p>
+
+<p>En ja dat is Ten Boer waar je nooit van gehoord hebt maar waar ik 15 jaar woonde 😍 Het werkt toch aardig zoals de NYT-applicatie met straatnamen en al maar oogt nog erg mager, en is daarmee vooral een <em>(tech alert)</em> Proof of Concept. Kijk dus vooral even <a href="http://allesvan.arjanzuidhof.nl/gis/alle-gebouwen-in-ten-boer/">op het interactieve kaartje van Ten Boer</a>.</p>
+
+<h2 id="versie-2">Versie 2</h2>
+
+<p>Nadat ik ongeveer het bovenstaande op Twitter had geplaatst, werd ik door qgis2web-ontwikkelaar <a href="https://medium.com/@tomchadwin">Tom Chadwin</a> <em>(huge shout-out!!)</em> er vriendelijk op <a href="https://twitter.com/tomchadwin/status/1052551428982665216">gewezen</a> dat ik hiervoor ook vector tiles kan gebruiken, net als dus de NYT. Het <a href="https://www.pdok.nl/">PDOK</a> dat geodata van de Nederlandse overheid ontsluit en dat o.a. vanuit het Kadaster is opgezet blijkt begin 2018 een publieke webservice hiervoor aan te bieden <a href="https://forum.pdok.nl/t/vector-tiles-brt-en-bgt-via-pdok/1103/26">mee te zijn begonnen</a>. Via nog een extra <a href="https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin">plugin</a> in QGIS kun je die, bleek me na enig onderzoek, redelijk eenvoudig aan de praat krijgen. Vandaar dat ik inmiddels een interactieve eenvoudige versie van alle gebouwen van heel Nederland heb gegenereerd. Weet je je weg in GIS-software, dan is dit aardig snel voor elkaar te krijgen en het geeft in ieder geval een supermooi effect! Klik zeker even door naar mijn versie van die <a href="https://allesvan.arjanzuidhof.nl/gis/qgis2web_met-pdok-vector-tiles/">interactieve kaart met alle gebouwen van Nederland</a> waar je hieronder een aanklikbare schermafbeelding van ziet.</p>
+
+<p><a href="https://allesvan.arjanzuidhof.nl/gis/qgis2web_met-pdok-vector-tiles/"><img src="/images/qgis2web-met-pdok-vector-tiles.png" alt="Interactieve versie alle gebouwen in Nederland, met dank aan PDOK" /></a></p>
+
+<p><em>to be continued</em></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+<ul>
+Tags: 
+
+    <a href="/tags/linklove"> linklove <small>(7)</small></a> ||
+
+
+
+    <a href="/tags/technologie"> technologie <small>(4)</small></a> ||
+
+
+
+    <a href="/tags/algoritmes"> algoritmes <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/facebook"> facebook <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/google"> google <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/smartphone"> smartphone <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/">  <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/politie"> politie <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/boeken"> boeken <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/censuur"> censuur <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/denkers-en-doeners"> denkers-en-doeners <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/e-mail"> e-mail <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/hackers"> hackers <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/maatschappij"> maatschappij <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/maps"> maps <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/muziekindustrie"> muziekindustrie <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/netherlands"> netherlands <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/opinie"> opinie <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/pubers"> pubers <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/school"> school <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/storytelling"> storytelling <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/verslaving"> verslaving <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/visualisation"> visualisation <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/windows"> windows <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/zoekmachines"> zoekmachines <small>(1)</small></a> ||
+
+
+</ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

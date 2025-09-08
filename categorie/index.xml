@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorie on Arjans Wereld</title>
+    <link>/categorie/</link>
+    <description>Recent content in Categorie on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Mon, 20 Aug 2018 07:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categorie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aandachtsmanagement</title>
+      <link>/categorie/aandachtsmanagement/</link>
+      <pubDate>Mon, 20 Aug 2018 07:00:00 +0000</pubDate>
+      
+      <guid>/categorie/aandachtsmanagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algemeen</title>
+      <link>/categorie/algemeen/</link>
+      <pubDate>Thu, 05 Sep 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/categorie/algemeen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bigtech</title>
+      <link>/categorie/bigtech/</link>
+      <pubDate>Fri, 28 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/categorie/bigtech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datascience</title>
+      <link>/categorie/datascience/</link>
+      <pubDate>Thu, 10 Oct 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/categorie/datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gis</title>
+      <link>/categorie/gis/</link>
+      <pubDate>Tue, 05 Nov 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/categorie/gis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>/categorie/privacy/</link>
+      <pubDate>Fri, 28 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/categorie/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/categorie/security/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/categorie/security/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

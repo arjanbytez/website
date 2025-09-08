@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="nl-nl">
+  <head>
+    <meta charset="utf-8">
+      <script src="https://unpkg.com/d3@5.7.0/dist/d3.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.39" />
+
+
+<title>[Generative art] Mondriaanlike painting on demand - Arjans Wereld</title>
+<meta property="og:title" content="[Generative art] Mondriaanlike painting on demand - Arjans Wereld">
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+<link rel="stylesheet" href="/css/progress-indicator.min.css" media="all">
+<script src="/js/jquery.min.js"></script>
+<script src="/js/progress-indicator.min.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="schrijfsels en meningen van Arjan Zuidhof">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/categorie/aandachtsmanagement">Aandachtsmanagement</a></li>
+    
+    <li><a href="/categorie/algemeen">Algemeen</a></li>
+    
+    <li><a href="/categorie/bigtech">BigTech</a></li>
+    
+    <li><a href="/categorie/datascience">Data(science)</a></li>
+    
+    <li><a href="/categorie/gis">GIS</a></li>
+    
+    <li><a href="/about/">Over</a></li>
+    
+    <li><a href="/categorie/privacy">Privacy</a></li>
+    
+    <li><a href="/categorie/security">Security</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+<progress value=0></progress>
+  <article class="article">
+    
+    <span class="article-duration">leestijd 1 minuut</span>
+    
+    
+    <span class="article-date">2019/01/15</span>
+    
+               <div style="color:grey; font-size:16px;"><strong>Tags:</strong> <a href="/tags/programming">programming</a> <a href="/tags/algoritmes">algoritmes</a> <a href="/tags/generative">generative</a> <a href="/tags/art">art</a> 
+               <strong>Categories:</strong> <a href="/categorie/algemeen">algemeen</a> </div>
+			   
+    <div class="article-content">
+
+<p><h2>Mondriaanlike painting on demand</h2>
+<p>This is a little project I&rsquo;m working on to teach myself <a href="https://github.com/d3/">D3</a> and generated images.</p>
+<p>Every time you refresh the screen a brand new painting is generated. You can do with it whatever you like, as long as you credit this page or keep the signature in the image.</p>
+<p>Source is available <a href="https://github.com/arjanbytez/mondriaanlike">on github</a></p> for you to use and expand on. If you find it useful, please let me know.</p>
+
+<p>&nbsp;</p>
+
+<div id="svgcontainer"></div>
+
+	<script language="javascript">
+
+    width = 900;
+    height = 600;
+
+    function numberOfLines() {
+      return Math.floor(Math.random() * 61) + 19;
+    }
+
+    function strokeWidth() {
+      return Math.floor(Math.random() * 21) + 25;
+    }
+
+    function zeroOrOne() {
+      return Math.round(Math.random());
+    }
+
+    //return one of Mondriaan colors: blue, red, yello, black
+    function monColor() {
+      switch (Math.floor(Math.random() * 5) + 1) {
+        case 1: // blue
+          return "rgb(0,0,255)";
+        case 2, 3: // black twice as likely
+          return "rgb(0,0,0)";
+        case 4: // red
+          return "rgb(255,0,0)";
+        case 5: // yellow
+          return "rgb(255,255,0)";
+      }
+    }
+
+    // x, y values must not touch edges
+    function harmonizePainting(side) {
+      if (side = "x") {
+        if (x1 < 40) {x1 = 60; x2=60;}
+        if (x2 > 860) {x1 = 840; x2 = 840;}
+      }
+      if (side = "y") {
+        if (y1 < 40) {y1 = 60; y2 = 60;}
+        if (y2 > 540) {y1 = 510; y2 = 510;}
+      }
+    }
+    function grabXY() {
+      if (zeroOrOne() == 0) {
+        x1 = Math.random() * width;
+        x2 = x1 + Math.random() *400;
+        y1 = Math.random() * height;
+        y2 = y1;
+        harmonizePainting("y");
+      } else {
+        y1 = Math.random() * height;
+        y2 = y1 + Math.random() * 400;
+        x1 = Math.random() * width;
+        x2 = x1;
+        harmonizePainting("x");
+      }
+    }
+    function addBorder() { // the most complex way to add a simple border ;-)
+      svg.append("rect")
+        .attr("x", 10).attr("y", 10).attr("width", 880).attr("height", 580)
+        .attr("style", "stroke: #664d03; fill:none; stroke-width: 5px; stroke-dasharray: 1 5;");
+      svg.append("rect")
+        .attr("x", 5).attr("y", 5).attr("width", 890).attr("height", 590)
+        .attr("style", "stroke: #664d03; fill:none; stroke-width: 15px;");
+      svg.append("rect")
+        .attr("x", 15).attr("y", 15).attr("width", 870).attr("height", 570)
+        .attr("style", "stroke: #664d03; fill:none; stroke-width: 3px;");
+    }
+  function generateGuid() { // this generates a unique ID
+    var result, i, j;
+    result = '';
+    for(j=0; j<32; j++) {
+      if( j == 8 || j == 12 || j == 16 || j == 20)
+        result = result + '-';
+      i = Math.floor(Math.random()*16).toString(16).toUpperCase();
+      result = result + i;
+    }
+  return result;
+}
+    function addSignature(svg) {
+      svg.append("text")
+        .attr("x", 140)
+        .attr("y", 580)
+        .attr("font-family", "monospace")
+        .text("Arjan Zuidhof, painting ID " + generateGuid());
+
+    }
+
+    var svg = d3.select("#svgcontainer")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
+    n = numberOfLines();
+    addBorder();
+    while (n-- > 0) {
+      grabXY();
+      sw = strokeWidth();
+      //console.log("n ", n, "s", sw,  "x1 ", x1, "x2 ", x2, "y1 ", y1, "y2 ", y2);
+      svg.append("line")
+        .style("stroke", monColor())
+        .attr("x1", x1)
+        .attr("y1", y1)
+        .attr("x2", x2)
+        .attr("y2", y2)
+        .style("stroke-width", sw);
+    }
+    addSignature(svg);
+
+</script>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+<ul>
+Tags: 
+
+    <a href="/tags/linklove"> linklove <small>(7)</small></a> ||
+
+
+
+    <a href="/tags/algoritmes"> algoritmes <small>(4)</small></a> ||
+
+
+
+    <a href="/tags/technologie"> technologie <small>(4)</small></a> ||
+
+
+
+    <a href="/tags/facebook"> facebook <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/google"> google <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/smartphone"> smartphone <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/">  <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/politie"> politie <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/art"> art <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/boeken"> boeken <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/censuur"> censuur <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/denkers-en-doeners"> denkers-en-doeners <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/e-mail"> e-mail <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/generative"> generative <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/hackers"> hackers <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/maatschappij"> maatschappij <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/maps"> maps <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/muziekindustrie"> muziekindustrie <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/netherlands"> netherlands <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/opinie"> opinie <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/programming"> programming <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/pubers"> pubers <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/school"> school <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/storytelling"> storytelling <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/verslaving"> verslaving <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/visualisation"> visualisation <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/windows"> windows <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/zoekmachines"> zoekmachines <small>(1)</small></a> ||
+
+
+</ul>
+      </footer>
+
+    </div>
+    
+
+
+    
+
+    
+  </body>
+</html>
+

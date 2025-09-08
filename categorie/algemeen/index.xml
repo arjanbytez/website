@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algemeen on Arjans Wereld</title>
+    <link>/categorie/algemeen/</link>
+    <description>Recent content in Algemeen on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Thu, 05 Sep 2019 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categorie/algemeen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VVMU: een absoluut recht om alles te mogen zeggen?</title>
+      <link>/vvmu-een-absoluut-recht-om-alles-te-mogen-zeggen/</link>
+      <pubDate>Thu, 05 Sep 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/vvmu-een-absoluut-recht-om-alles-te-mogen-zeggen/</guid>
+      <description>Waanzinnig sterke longread in de Guardian over die vermaledijde vrijheid van meningsuiting en vooral de sneeuwvlokjes die vinden dat er een &amp;lsquo;crisis in free speech&amp;rsquo; is. Die is er namelijk helemaal niet, zoals je hopelijk al wist. &amp;ldquo;Trolling has becoming an industry&amp;rdquo;. Die (koosnaamalert!) VVMU is verworden tot het recht opeisen om te mogen zeggen wat je wilt, zonder dat een ander daar iets van mag vinden. Dat laatste werd vroeger &amp;ldquo;weerwoord&amp;rdquo; genoemd, lezertjes boven de 25 zullen zich dat ongetwijfeld nog herinneren.</description>
+    </item>
+    
+    <item>
+      <title>[Generative art] Mondriaanlike painting on demand</title>
+      <link>/generative-art-mondriaanlike-painting-on-demand/</link>
+      <pubDate>Tue, 15 Jan 2019 20:00:00 +0000</pubDate>
+      
+      <guid>/generative-art-mondriaanlike-painting-on-demand/</guid>
+      <description>Mondriaanlike painting on demand This is a little project I&amp;rsquo;m working on to teach myself D3 and generated images.
+Every time you refresh the screen a brand new painting is generated. You can do with it whatever you like, as long as you credit this page or keep the signature in the image.
+Source is available on github
+for you to use and expand on. If you find it useful, please let me know.</description>
+    </item>
+    
+    <item>
+      <title>Google Duplex, dystopische AI</title>
+      <link>/google-duplex-dystopische-ai/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/google-duplex-dystopische-ai/</guid>
+      <description>😨 o hai, is het een robot waar ik mee spreek? Google toonde onlangs een demo van een nieuw product, Google Duplex. Het is volgens geek.com eindelijk een nuttig gebruik van AI. Het wordt een assistent die namens jou telefoontjes kan plegen om bijvoorbeeld een restaurantafspraak te maken. Ofwel een robot die een natuurlijk gesprek kan voeren met een echt mens via de telefoon. En getuige het gelikte demofilmpje lijken de conversaties daadwerkelijk door twee humans gevoerd te worden.</description>
+    </item>
+    
+    <item>
+      <title>Denkers en doeners: Naval Ravikant</title>
+      <link>/denkers-en-doeners-naval-ravikant/</link>
+      <pubDate>Wed, 25 Apr 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/denkers-en-doeners-naval-ravikant/</guid>
+      <description>🔥 ik kwam ergens een verwijzing tegen naar een podcast met mij onbekende maar markante persoonlijkheid Naval Ravikant van het mij tevens onbekende maar blijkbaar populaire blog Farnam Street van Shane Parrish. Naval is een grote investeerder in Silicon Valley o.a. in Twitter en Uber. Hij twittert op het account @naval. Ravikant steekt dan weliswaar geld in soms dubieuze taxi- en andere bedrijven en is invested in de bitcoinhype. Wel is het een inspirerende persoonlijkheid.</description>
+    </item>
+    
+  </channel>
+</rss>

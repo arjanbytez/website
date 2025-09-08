@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Arjans Wereld</title>
+    <link>/categorie/security/</link>
+    <description>Recent content in Security on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Thu, 10 May 2018 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categorie/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linklove no. 6 (Security)</title>
+      <link>/linklove-no.-6-security/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-6-security/</guid>
+      <description>👊 👏 🚨 Grootste DDOS-website opgerold. &amp;ldquo;Laat dit een waarschuwing zijn aan ieder die wil DDoSsen.&amp;rdquo; Goede actie eind april van de Nationale Politie in samenwerking met een hele rits andere korpsen en diensten. En met AMA op Reddit - waar de doelgroep ook rondhangt en die je achteraf in het geheel kunt teruglezen. Slim!
+🔫 In de VS wil een aantal bedrijven de mogelijkheid krijgen terug te slaan wanneer ze gehackt worden.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 2 (Security)</title>
+      <link>/linklove-no.-2-security/</link>
+      <pubDate>Tue, 24 Apr 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-2-security/</guid>
+      <description>💻 Hack! - Een tijdje terug bleek een populaire opschoontool voor Windows computer genaamd CCleamer zelf besmet met malware. De download waar de malware in verstopt zat werd nota bene geleverd door Avast, zelf een beveiligingsbedrijf. Zelf gebruik ik CCleaner ook, het werkt prima. Daarom schrok ik destijds dan ook van het bericht hierover. Gelukkig gebruikte ik net aan niet de besmette versie. Nu is er een bloedstollende en uitgebreide analyse verschenen van de CCleamer hack waarin verteld wordt hoe de hackers te werk gingen, wie ze op het ook hadden, en hoe dit zo kon gebeuren.</description>
+    </item>
+    
+  </channel>
+</rss>
