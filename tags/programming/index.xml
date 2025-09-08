@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Arjans Wereld</title>
+    <link>/tags/programming/</link>
+    <description>Recent content in Programming on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Tue, 05 Nov 2019 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio GIS-kaarten ~ Arjan Zuidhof</title>
+      <link>/portfolio-gis-kaarten-~-arjan-zuidhof/</link>
+      <pubDate>Tue, 05 Nov 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/portfolio-gis-kaarten-~-arjan-zuidhof/</guid>
+      <description>alle afbeeldingen zijn geschaald op een breedte van 1024 pixels en kunnen daarom het best op een groot scherm bekeken worden.
+Gemeenten zetten steeds meer gegevens online. Amsterdam en Den Haag (en vast meer) hebben het hele door hen beheerde bomenbestand online staan inclusief leeftijd en boomhoogte. Dan kun je dit soort plaatjes maken van bomen in (een deel van) het Vondelpark.
+&amp;nbsp; ~ ~ ~ &amp;nbsp; In het BAG-bestand van het Kadaster staat vanzelfsprekend ook de opleverdata van gebouwen.</description>
+    </item>
+    
+    <item>
+      <title>Verrassende data-visualisaties met Processing</title>
+      <link>/verrassende-data-visualisaties-met-processing/</link>
+      <pubDate>Thu, 10 Oct 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/verrassende-data-visualisaties-met-processing/</guid>
+      <description>De afgelopen tijd ben ik actief met het maken van generatieve kunst via de visualisatietool Processing. Op mijn twitteraccount @ArjanBytez verschijnen regelmatig nieuwe experimenten. Daarnaast is dezelfde tool erg geschikt voor het op weer eens een andere manier visualiseren van daadwerkelijke data. Nu is data visualisation de laatste jaren aan een behoorlijk opmars bezig waarbij software zoals Tableau, Datawrapper en vele anderen, en in Nederland Localfocus, rap populair geworden zijn. Processing is wat laagdrempeliger: je maakt met enkele regels code al een professioneel ogende creatieve uiting.</description>
+    </item>
+    
+    <item>
+      <title>[Generative art] Mondriaanlike painting on demand</title>
+      <link>/generative-art-mondriaanlike-painting-on-demand/</link>
+      <pubDate>Tue, 15 Jan 2019 20:00:00 +0000</pubDate>
+      
+      <guid>/generative-art-mondriaanlike-painting-on-demand/</guid>
+      <description>Mondriaanlike painting on demand This is a little project I&amp;rsquo;m working on to teach myself D3 and generated images.
+Every time you refresh the screen a brand new painting is generated. You can do with it whatever you like, as long as you credit this page or keep the signature in the image.
+Source is available on github
+for you to use and expand on. If you find it useful, please let me know.</description>
+    </item>
+    
+  </channel>
+</rss>

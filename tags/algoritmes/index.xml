@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algoritmes on Arjans Wereld</title>
+    <link>/tags/algoritmes/</link>
+    <description>Recent content in Algoritmes on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Thu, 10 Oct 2019 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/algoritmes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Verrassende data-visualisaties met Processing</title>
+      <link>/verrassende-data-visualisaties-met-processing/</link>
+      <pubDate>Thu, 10 Oct 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/verrassende-data-visualisaties-met-processing/</guid>
+      <description>De afgelopen tijd ben ik actief met het maken van generatieve kunst via de visualisatietool Processing. Op mijn twitteraccount @ArjanBytez verschijnen regelmatig nieuwe experimenten. Daarnaast is dezelfde tool erg geschikt voor het op weer eens een andere manier visualiseren van daadwerkelijke data. Nu is data visualisation de laatste jaren aan een behoorlijk opmars bezig waarbij software zoals Tableau, Datawrapper en vele anderen, en in Nederland Localfocus, rap populair geworden zijn. Processing is wat laagdrempeliger: je maakt met enkele regels code al een professioneel ogende creatieve uiting.</description>
+    </item>
+    
+    <item>
+      <title>[Generative art] Mondriaanlike painting on demand</title>
+      <link>/generative-art-mondriaanlike-painting-on-demand/</link>
+      <pubDate>Tue, 15 Jan 2019 20:00:00 +0000</pubDate>
+      
+      <guid>/generative-art-mondriaanlike-painting-on-demand/</guid>
+      <description>Mondriaanlike painting on demand This is a little project I&amp;rsquo;m working on to teach myself D3 and generated images.
+Every time you refresh the screen a brand new painting is generated. You can do with it whatever you like, as long as you credit this page or keep the signature in the image.
+Source is available on github
+for you to use and expand on. If you find it useful, please let me know.</description>
+    </item>
+    
+    <item>
+      <title>Censuur door Google en Facebook: goed idee?</title>
+      <link>/censuur-door-google-en-facebook-goed-idee/</link>
+      <pubDate>Wed, 15 Aug 2018 08:00:00 +0000</pubDate>
+      
+      <guid>/censuur-door-google-en-facebook-goed-idee/</guid>
+      <description>Hans de Zwart schreef onlangs dat Google en Facebook een verantwoordelijkheid hebben om racistische bagger voor ons verborgen te houden. Ik neig er naar hem gelijk te geven: deze bedrijven zijn oppermachtig en voor veel mensen de belangrijkste of zelfs enige bron van informatie. In het door Hans genoemde geval betrof het overigens een bekladding van Wikipedia die via-via het algoritme van Google hem onder ogen kwam. Het reclamebedrijf heeft meen ik - net als in dit geval Wikipedia zelf - een verantwoordelijkheid dergelijke bekladdingen snel ongedaan te maken; dat kunnen ze best.</description>
+    </item>
+    
+    <item>
+      <title>Google Duplex, dystopische AI</title>
+      <link>/google-duplex-dystopische-ai/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/google-duplex-dystopische-ai/</guid>
+      <description>😨 o hai, is het een robot waar ik mee spreek? Google toonde onlangs een demo van een nieuw product, Google Duplex. Het is volgens geek.com eindelijk een nuttig gebruik van AI. Het wordt een assistent die namens jou telefoontjes kan plegen om bijvoorbeeld een restaurantafspraak te maken. Ofwel een robot die een natuurlijk gesprek kan voeren met een echt mens via de telefoon. En getuige het gelikte demofilmpje lijken de conversaties daadwerkelijk door twee humans gevoerd te worden.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 4 (Big Tech)</title>
+      <link>/linklove-no.-4-big-tech/</link>
+      <pubDate>Mon, 30 Apr 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-4-big-tech/</guid>
+      <description>👽 _&amp;ldquo;AI will make workplaces more efficient, safer and much creepier&amp;ldquo; Een wat duister stuk bij het altijd diepgravende Economist over hoe beslissingen ondersteund door data (hallo algoritmen!) de toekomstige werkplek gaan bepalen
+📺 Over die algoritmen gesproken: heb je die aflevering van Tegenlicht daarover al gezien? &amp;ldquo;Verslaafd aan het algoritme&amp;rdquo; gaat over hoe &amp;rdquo;(&amp;hellip;) algoritmes steeds vaker de grote beslissingen in ons leven [bepalen]. Want ze zijn sneller en efficiënter dan mensen.</description>
+    </item>
+    
+  </channel>
+</rss>

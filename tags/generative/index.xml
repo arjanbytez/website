@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative on Arjans Wereld</title>
+    <link>/tags/generative/</link>
+    <description>Recent content in Generative on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Tue, 15 Jan 2019 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/generative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Generative art] Mondriaanlike painting on demand</title>
+      <link>/generative-art-mondriaanlike-painting-on-demand/</link>
+      <pubDate>Tue, 15 Jan 2019 20:00:00 +0000</pubDate>
+      
+      <guid>/generative-art-mondriaanlike-painting-on-demand/</guid>
+      <description>Mondriaanlike painting on demand This is a little project I&amp;rsquo;m working on to teach myself D3 and generated images.
+Every time you refresh the screen a brand new painting is generated. You can do with it whatever you like, as long as you credit this page or keep the signature in the image.
+Source is available on github
+for you to use and expand on. If you find it useful, please let me know.</description>
+    </item>
+    
+  </channel>
+</rss>

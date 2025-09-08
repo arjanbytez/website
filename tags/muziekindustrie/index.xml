@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muziekindustrie on Arjans Wereld</title>
+    <link>/tags/muziekindustrie/</link>
+    <description>Recent content in Muziekindustrie on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Thu, 03 May 2018 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/muziekindustrie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linklove no. 5 (Privacy)</title>
+      <link>/linklove-no.-5-privacy/</link>
+      <pubDate>Thu, 03 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-5-privacy/</guid>
+      <description>Zoek je een machine die je zoekgeschiedenis &amp;lt;&amp;gt; bijhoudt? Die is er, in de vorm van DuckDuckGo. Ze houden letterlijk niets bij. Het mooiste bewijs dat het opbouwen van een persoonlijk profiel ook helemaal niet nodig is om als search engine goed te kunnen werken. Persoonlijke ervaring: een aantal jaar terug waren hun resultaten nog zo-zo, nu vind ik meestal direct wat nodig is. Op het ondergewaardeerde Quora vind je de ultieme alles-wat-je-nooit-durfde-te-vragen over DDG: &amp;rdquo; Why should I use DuckDuckGo instead of Google?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Arjans Wereld</title>
+    <link>/tags/google/</link>
+    <description>Recent content in Google on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Fri, 28 Dec 2018 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weg van Google - Standard Notes als alternatief voor Keep?</title>
+      <link>/weg-van-google---standard-notes-als-alternatief-voor-keep/</link>
+      <pubDate>Fri, 28 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/weg-van-google---standard-notes-als-alternatief-voor-keep/</guid>
+      <description>Op termijn wil ik graag helemaal van Google loskomen. Behalve dat het een privacyverslindende moloch is, is het ook persoonlijk een uitdaging: kun je in deze tijd Googleloos doch prettig internetten? Da&amp;rsquo;s nog niet makkelijk. Vandaag eens met Standard Notes aan de slag. Dit is een alternatief voor Google Keep en daarmee ook Evernote dat als app en als bedrijf al een tijdje niet lekker loopt. Van Evernote nam eerder dit jaar afscheid.</description>
+    </item>
+    
+    <item>
+      <title>Censuur door Google en Facebook: goed idee?</title>
+      <link>/censuur-door-google-en-facebook-goed-idee/</link>
+      <pubDate>Wed, 15 Aug 2018 08:00:00 +0000</pubDate>
+      
+      <guid>/censuur-door-google-en-facebook-goed-idee/</guid>
+      <description>Hans de Zwart schreef onlangs dat Google en Facebook een verantwoordelijkheid hebben om racistische bagger voor ons verborgen te houden. Ik neig er naar hem gelijk te geven: deze bedrijven zijn oppermachtig en voor veel mensen de belangrijkste of zelfs enige bron van informatie. In het door Hans genoemde geval betrof het overigens een bekladding van Wikipedia die via-via het algoritme van Google hem onder ogen kwam. Het reclamebedrijf heeft meen ik - net als in dit geval Wikipedia zelf - een verantwoordelijkheid dergelijke bekladdingen snel ongedaan te maken; dat kunnen ze best.</description>
+    </item>
+    
+    <item>
+      <title>Google Duplex, dystopische AI</title>
+      <link>/google-duplex-dystopische-ai/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/google-duplex-dystopische-ai/</guid>
+      <description>😨 o hai, is het een robot waar ik mee spreek? Google toonde onlangs een demo van een nieuw product, Google Duplex. Het is volgens geek.com eindelijk een nuttig gebruik van AI. Het wordt een assistent die namens jou telefoontjes kan plegen om bijvoorbeeld een restaurantafspraak te maken. Ofwel een robot die een natuurlijk gesprek kan voeren met een echt mens via de telefoon. En getuige het gelikte demofilmpje lijken de conversaties daadwerkelijk door twee humans gevoerd te worden.</description>
+    </item>
+    
+  </channel>
+</rss>

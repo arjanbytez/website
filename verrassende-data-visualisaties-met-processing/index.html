@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="nl-nl">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.39" />
+
+
+<title>Verrassende data-visualisaties met Processing - Arjans Wereld</title>
+<meta property="og:title" content="Verrassende data-visualisaties met Processing - Arjans Wereld">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+<link rel="stylesheet" href="/css/progress-indicator.min.css" media="all">
+<script src="/js/jquery.min.js"></script>
+<script src="/js/progress-indicator.min.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="schrijfsels en meningen van Arjan Zuidhof">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/categorie/aandachtsmanagement">Aandachtsmanagement</a></li>
+    
+    <li><a href="/categorie/algemeen">Algemeen</a></li>
+    
+    <li><a href="/categorie/bigtech">BigTech</a></li>
+    
+    <li><a href="/categorie/datascience">Data(science)</a></li>
+    
+    <li><a href="/categorie/gis">GIS</a></li>
+    
+    <li><a href="/about/">Over</a></li>
+    
+    <li><a href="/categorie/privacy">Privacy</a></li>
+    
+    <li><a href="/categorie/security">Security</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+<progress value=0></progress>
+  <article class="article">
+    
+    <span class="article-duration">leestijd 3 minuten</span>
+    
+
+    <h1 class="article-title">Verrassende data-visualisaties met Processing</h1>
+
+    
+    <span class="article-date">2019/10/10</span>
+    
+               <div style="color:grey; font-size:16px;"><strong>Tags:</strong> <a href="/tags/programming">programming</a> <a href="/tags/algoritmes">algoritmes</a> <a href="/tags/technologie">technologie</a> 
+               <strong>Categories:</strong> <a href="/categorie/datascience">datascience</a> </div>
+			   
+    <div class="article-content">
+      <p>De afgelopen tijd ben ik actief met het maken van generatieve kunst via de <a href="https://processing.org/">visualisatietool Processing</a>. Op mijn twitteraccount <a href="https://twitter.com/arjanbytez">@ArjanBytez</a> verschijnen regelmatig nieuwe experimenten. Daarnaast is dezelfde tool erg geschikt voor het op weer eens een andere manier visualiseren van daadwerkelijke data. Nu is data visualisation de laatste jaren aan een behoorlijk opmars bezig waarbij software zoals <a href="https://www.tableau.com/">Tableau</a>, <a href="https://www.datawrapper.de/">Datawrapper</a> en vele anderen, en in Nederland <a href="https://www.localfocus.nl/nl/">Localfocus</a>, rap populair geworden zijn. Processing is wat laagdrempeliger: je maakt met enkele regels code al een professioneel ogende creatieve uiting.</p>
+
+<p><img align="right" src="/images/processing-voorbeeld-klein.png">
+<center><a href="/images/processing-voorbeeld.png">klik</a> <em>voor grote versie</em></center></p>
+
+<p>Zelf zie ik Processing als iets dat tussen de standaard datatools als Excel en de elite zoals Tableau ligt: programmeerervaring is handig, maar heb je wel eens een script geschreven dan kun je het best snel oppakken.</p>
+
+<p>Onlangs keek ik hoe je meteorologische data mooi kunt weergeven: een jaar bestaat uit 365 dagen en een cirkel is opgebouwd uit 360 graden - hmm, als we eens de temperatuur weergeven op die cirkel? Op de KNMI-site staan de <a href="http://projects.knmi.nl/klimatologie/daggegevens/selectie.cgi">daggegevens</a> van het weer zo binnenhalen. Even het gedownloade tekstbestand handmatig aanpassen en je hebt de minimum- en maximumtemperatuur voor 1 of zo je wilt alle offici&euml;le weerstations in Nederland als .csv-bestand beschikbaar. Vervolgens laad je dit bestand in Processing in, en plaatst via een geometrische berekening 365 staafjes die in een aantal herkenbare temperatuurcategorie&euml;n gekleurd rondom een cirkel en je ziet meteen hoe de temperatuur in Voorschoten dit jaar verloopt:</p>
+
+<p><img align="right" src="/images/min-max-voorschoten-2019-klein.png"><br />
+<center><a href="/images/min-max-voorschoten-2019.png">klik</a> <em>voor grote versie</em></center></p>
+
+<p>We zien hier hoe vanaf bovenaan via de rechterkant het temperatuurverloop over het huidige jaar - helaas werkte de KNMI even niet mee dus heb me beholpen met data tot  halverwege de zomer. Getoond worden staafjes die de minimum- en maximumtemperatuur van iedere dag tonen, waarbij de kleur wordt bepaald door de maximumwaarde. De kleurstelling is zoals vaak op weerkaarten gebruikt wordt van een blauwtint via groen en geel naar rood. Heel duidelijk zijn de eerste twee hittegolven van afgelopen zomer te zien, als rode uitschieters boven de 30 graden.</p>
+
+<p>OK, volgende stap: hoeveel data zou je kwijt kunnen in 1 zo&rsquo;n visualisatie voordat het onoverzichtelijk wordt? Zelf ben ik erg gecharmeerd van de meteogrammen van de Zwiterse weersite Kachelmann, de buitencategorie qua weervisualisatie laten we zeggen waarbij zeer veel informatie getoond wordt zonder het overzicht kwijt te raken. Zie de <a href="https://kachelmannwetter.com/de/vorhersage/2745301-voorschoten/kompakt">voorspelling</a> voor hetzelfde Voorschoten van 1 dag, en kijk vooral eens rond op die site!</p>
+
+<p><img align="right" src="/images/min-max-neerslag-voorschoten-2019-klein.png"><br />
+<center><a href="/images/min-max-neerslag-voorschoten-2019.png">klik</a> <em>voor grote versie</em></center></p>
+
+<p><img align="right" src="/images/kachelmann2.jpg"/></p>
+
+<p>Wat in ieder geval een waardevolle aanvulling vormt is de neerslag. Samen met de temperatuur geeft dat een aardige indicatie over het soort weer. Laten we deze toevoegen. Alleen weergeven vanaf de rand van de cirkel naar buiten toe is verwarrend, aangezien de neerslagstaafjes dan zullen interfereren met de temperatuur. Vandaar leek het me goed een dubbel schaal te gebruiken waarbij de neerslag van bovenaf richting de basiscirkel wordt getoond.</p>
+
+<p>Nu krijgen we onderstaande grafiek die wat mij betreft een mooie balans is: wel degelijk flink wat informatie tonen - tweemaal 365 temperatuurwaarden over een jaar en &egrave;&egrave;nmaal neerslag zijn 1095 datapunten) - zonder dat het een rommeltje wordt. Met wind(richting), luchtdruk of zonneschijnduur erbij wordt het onoverzichtelijk. Daarvoor zul je een kleiner tijdsinterval moeten nemen en een andere manier van plotten.</p>
+
+<p>Dat is iets voor een volgend experiment&hellip; voor nu gaan we er uit met een generatieve zonnebloem van eigen kweek</p>
+
+<p><img align="center" src="/images/generative-sunflower-small.png">
+<center><a href="/images/generative-sunflower.png">klik</a> <em>voor grote versie</em></center></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+<ul>
+Tags: 
+
+    <a href="/tags/linklove"> linklove <small>(7)</small></a> ||
+
+
+
+    <a href="/tags/algoritmes"> algoritmes <small>(5)</small></a> ||
+
+
+
+    <a href="/tags/technologie"> technologie <small>(5)</small></a> ||
+
+
+
+    <a href="/tags/facebook"> facebook <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/google"> google <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/smartphone"> smartphone <small>(3)</small></a> ||
+
+
+
+    <a href="/tags/">  <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/censuur"> censuur <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/maatschappij"> maatschappij <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/politie"> politie <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/programming"> programming <small>(2)</small></a> ||
+
+
+
+    <a href="/tags/art"> art <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/boeken"> boeken <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/denkers-en-doeners"> denkers-en-doeners <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/e-mail"> e-mail <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/generative"> generative <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/hackers"> hackers <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/maps"> maps <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/muziekindustrie"> muziekindustrie <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/netherlands"> netherlands <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/opinie"> opinie <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/pubers"> pubers <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/school"> school <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/storytelling"> storytelling <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/verslaving"> verslaving <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/visualisation"> visualisation <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/windows"> windows <small>(1)</small></a> ||
+
+
+
+    <a href="/tags/zoekmachines"> zoekmachines <small>(1)</small></a> ||
+
+
+</ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

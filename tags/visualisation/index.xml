@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualisation on Arjans Wereld</title>
+    <link>/tags/visualisation/</link>
+    <description>Recent content in Visualisation on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Tue, 05 Nov 2019 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio GIS-kaarten ~ Arjan Zuidhof</title>
+      <link>/portfolio-gis-kaarten-~-arjan-zuidhof/</link>
+      <pubDate>Tue, 05 Nov 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/portfolio-gis-kaarten-~-arjan-zuidhof/</guid>
+      <description>alle afbeeldingen zijn geschaald op een breedte van 1024 pixels en kunnen daarom het best op een groot scherm bekeken worden.
+Gemeenten zetten steeds meer gegevens online. Amsterdam en Den Haag (en vast meer) hebben het hele door hen beheerde bomenbestand online staan inclusief leeftijd en boomhoogte. Dan kun je dit soort plaatjes maken van bomen in (een deel van) het Vondelpark.
+&amp;nbsp; ~ ~ ~ &amp;nbsp; In het BAG-bestand van het Kadaster staat vanzelfsprekend ook de opleverdata van gebouwen.</description>
+    </item>
+    
+    <item>
+      <title>Alle gebouwen in Nederland op de kaart (GIS-projectje)</title>
+      <link>/alle-gebouwen-in-nederland-op-de-kaart-gis-projectje/</link>
+      <pubDate>Thu, 18 Oct 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/alle-gebouwen-in-nederland-op-de-kaart-gis-projectje/</guid>
+      <description>Onlangs publiceerde de New York Times een interactief overzicht van alle gebouwen in de Verenigde Staten. Dat veelbesproken project is ontzettend mooi uitgevoerd, vooral door de aandacht voor detail op alle zoomniveaus. Door de gebruikte techniek (vector tiles waarbij steeds een klein stukje van de kaart wordt ingeladen in plaats van alles in &amp;eacute;&amp;eacute;n keer) werkt de kaart bijzonder snel en effectief. Getoond wordt een minimum aan benodigde elementen om toch precies het juiste doel te bereiken; zo&amp;rsquo;n minimalistische aanpak mag ik wel.</description>
+    </item>
+    
+  </channel>
+</rss>

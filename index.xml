@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arjans Wereld</title>
+    <link>/</link>
+    <description>Recent content on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Tue, 05 Nov 2019 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio GIS-kaarten ~ Arjan Zuidhof</title>
+      <link>/portfolio-gis-kaarten-~-arjan-zuidhof/</link>
+      <pubDate>Tue, 05 Nov 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/portfolio-gis-kaarten-~-arjan-zuidhof/</guid>
+      <description>alle afbeeldingen zijn geschaald op een breedte van 1024 pixels en kunnen daarom het best op een groot scherm bekeken worden.
+Gemeenten zetten steeds meer gegevens online. Amsterdam en Den Haag (en vast meer) hebben het hele door hen beheerde bomenbestand online staan inclusief leeftijd en boomhoogte. Dan kun je dit soort plaatjes maken van bomen in (een deel van) het Vondelpark.
+&amp;nbsp; ~ ~ ~ &amp;nbsp; In het BAG-bestand van het Kadaster staat vanzelfsprekend ook de opleverdata van gebouwen.</description>
+    </item>
+    
+    <item>
+      <title>Verrassende data-visualisaties met Processing</title>
+      <link>/verrassende-data-visualisaties-met-processing/</link>
+      <pubDate>Thu, 10 Oct 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/verrassende-data-visualisaties-met-processing/</guid>
+      <description>De afgelopen tijd ben ik actief met het maken van generatieve kunst via de visualisatietool Processing. Op mijn twitteraccount @ArjanBytez verschijnen regelmatig nieuwe experimenten. Daarnaast is dezelfde tool erg geschikt voor het op weer eens een andere manier visualiseren van daadwerkelijke data. Nu is data visualisation de laatste jaren aan een behoorlijk opmars bezig waarbij software zoals Tableau, Datawrapper en vele anderen, en in Nederland Localfocus, rap populair geworden zijn. Processing is wat laagdrempeliger: je maakt met enkele regels code al een professioneel ogende creatieve uiting.</description>
+    </item>
+    
+    <item>
+      <title>VVMU: een absoluut recht om alles te mogen zeggen?</title>
+      <link>/vvmu-een-absoluut-recht-om-alles-te-mogen-zeggen/</link>
+      <pubDate>Thu, 05 Sep 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/vvmu-een-absoluut-recht-om-alles-te-mogen-zeggen/</guid>
+      <description>Waanzinnig sterke longread in de Guardian over die vermaledijde vrijheid van meningsuiting en vooral de sneeuwvlokjes die vinden dat er een &amp;lsquo;crisis in free speech&amp;rsquo; is. Die is er namelijk helemaal niet, zoals je hopelijk al wist. &amp;ldquo;Trolling has becoming an industry&amp;rdquo;. Die (koosnaamalert!) VVMU is verworden tot het recht opeisen om te mogen zeggen wat je wilt, zonder dat een ander daar iets van mag vinden. Dat laatste werd vroeger &amp;ldquo;weerwoord&amp;rdquo; genoemd, lezertjes boven de 25 zullen zich dat ongetwijfeld nog herinneren.</description>
+    </item>
+    
+    <item>
+      <title>[Generative art] Mondriaanlike painting on demand</title>
+      <link>/generative-art-mondriaanlike-painting-on-demand/</link>
+      <pubDate>Tue, 15 Jan 2019 20:00:00 +0000</pubDate>
+      
+      <guid>/generative-art-mondriaanlike-painting-on-demand/</guid>
+      <description>Mondriaanlike painting on demand This is a little project I&amp;rsquo;m working on to teach myself D3 and generated images.
+Every time you refresh the screen a brand new painting is generated. You can do with it whatever you like, as long as you credit this page or keep the signature in the image.
+Source is available on github
+for you to use and expand on. If you find it useful, please let me know.</description>
+    </item>
+    
+    <item>
+      <title>Weg van Google - Standard Notes als alternatief voor Keep?</title>
+      <link>/weg-van-google---standard-notes-als-alternatief-voor-keep/</link>
+      <pubDate>Fri, 28 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/weg-van-google---standard-notes-als-alternatief-voor-keep/</guid>
+      <description>Op termijn wil ik graag helemaal van Google loskomen. Behalve dat het een privacyverslindende moloch is, is het ook persoonlijk een uitdaging: kun je in deze tijd Googleloos doch prettig internetten? Da&amp;rsquo;s nog niet makkelijk. Vandaag eens met Standard Notes aan de slag. Dit is een alternatief voor Google Keep en daarmee ook Evernote dat als app en als bedrijf al een tijdje niet lekker loopt. Van Evernote nam eerder dit jaar afscheid.</description>
+    </item>
+    
+    <item>
+      <title>Alle gebouwen in Nederland op de kaart (GIS-projectje)</title>
+      <link>/alle-gebouwen-in-nederland-op-de-kaart-gis-projectje/</link>
+      <pubDate>Thu, 18 Oct 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/alle-gebouwen-in-nederland-op-de-kaart-gis-projectje/</guid>
+      <description>Onlangs publiceerde de New York Times een interactief overzicht van alle gebouwen in de Verenigde Staten. Dat veelbesproken project is ontzettend mooi uitgevoerd, vooral door de aandacht voor detail op alle zoomniveaus. Door de gebruikte techniek (vector tiles waarbij steeds een klein stukje van de kaart wordt ingeladen in plaats van alles in &amp;eacute;&amp;eacute;n keer) werkt de kaart bijzonder snel en effectief. Getoond wordt een minimum aan benodigde elementen om toch precies het juiste doel te bereiken; zo&amp;rsquo;n minimalistische aanpak mag ik wel.</description>
+    </item>
+    
+    <item>
+      <title>Waarom de telefoon op school beter in de tas blijft</title>
+      <link>/waarom-de-telefoon-op-school-beter-in-de-tas-blijft/</link>
+      <pubDate>Mon, 20 Aug 2018 07:00:00 +0000</pubDate>
+      
+      <guid>/waarom-de-telefoon-op-school-beter-in-de-tas-blijft/</guid>
+      <description>📰 Een krantenartikeltje over een nieuwe wet in Frankrijk waardoor vanaf dit schooljaar de mobiele telefoon op alle basis- en middelbare scholen verboden wordt. Niet alleen in de klas, maar overal op school. Persoonlijk ben ik er geen voorstander van om voor alles een nieuwe wet te maken. Toch is dit een goed initiatief al was het om een signaal af te geven: op veel scholen zijn kids meer met telefoon bezig dan iets op te steken.</description>
+    </item>
+    
+    <item>
+      <title>Censuur door Google en Facebook: goed idee?</title>
+      <link>/censuur-door-google-en-facebook-goed-idee/</link>
+      <pubDate>Wed, 15 Aug 2018 08:00:00 +0000</pubDate>
+      
+      <guid>/censuur-door-google-en-facebook-goed-idee/</guid>
+      <description>Hans de Zwart schreef onlangs dat Google en Facebook een verantwoordelijkheid hebben om racistische bagger voor ons verborgen te houden. Ik neig er naar hem gelijk te geven: deze bedrijven zijn oppermachtig en voor veel mensen de belangrijkste of zelfs enige bron van informatie. In het door Hans genoemde geval betrof het overigens een bekladding van Wikipedia die via-via het algoritme van Google hem onder ogen kwam. Het reclamebedrijf heeft meen ik - net als in dit geval Wikipedia zelf - een verantwoordelijkheid dergelijke bekladdingen snel ongedaan te maken; dat kunnen ze best.</description>
+    </item>
+    
+    <item>
+      <title>Heeft technologie (geen) invloed op ons brein?</title>
+      <link>/heeft-technologie-geen-invloed-op-ons-brein/</link>
+      <pubDate>Thu, 24 May 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/heeft-technologie-geen-invloed-op-ons-brein/</guid>
+      <description>&amp;ldquo;A psychologist explains why technology&amp;rsquo;s impact on your brain is probably overblown&amp;rdquo;
+📱 Hier gaat wat mij betreft iemand wel heel kort door de bocht: &amp;ldquo;het is geen verslaving en iedereen overdrijft&amp;rdquo;. En hoe noem je dan de schermzombies die op straat regelmatig bijna tegen ons aanlopen? En al die mensen die mij vertellen dat ze die telefoon nauwelijks nog weg kunnen leggen?
+In mijn trainingen komt het aspect van voortdurende onderbreking door piepjes, mailtjes en andere berichten altijd aan de orde.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 7 (Aandachtsmanagement)</title>
+      <link>/linklove-no.-7-aandachtsmanagement/</link>
+      <pubDate>Sun, 13 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-7-aandachtsmanagement/</guid>
+      <description>📰 Genees jezelf van infobesitas en twitteritis Studenten gaan een week compleet off the grid en zijn helemaal enthousiast. &amp;rdquo; Ik kreeg ineens zo veel ruimte in mijn hoofd. &amp;ldquo; Dat zouden meer mensen kunnen doen. Zelf ruim ik af en toe ook compleet nieuwsloze periodes in waarin ik alle nieuwsbronnen links laat liggen. Niet om alle externe informatie te negeren, wel om regelmatig stil te staan en bewust te blijven &amp;lt;&amp;lt;wat&amp;gt;&amp;gt; er nou allemaal op mijn nieuwsmenu staat.</description>
+    </item>
+    
+    <item>
+      <title>Google Duplex, dystopische AI</title>
+      <link>/google-duplex-dystopische-ai/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/google-duplex-dystopische-ai/</guid>
+      <description>😨 o hai, is het een robot waar ik mee spreek? Google toonde onlangs een demo van een nieuw product, Google Duplex. Het is volgens geek.com eindelijk een nuttig gebruik van AI. Het wordt een assistent die namens jou telefoontjes kan plegen om bijvoorbeeld een restaurantafspraak te maken. Ofwel een robot die een natuurlijk gesprek kan voeren met een echt mens via de telefoon. En getuige het gelikte demofilmpje lijken de conversaties daadwerkelijk door twee humans gevoerd te worden.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 6 (Security)</title>
+      <link>/linklove-no.-6-security/</link>
+      <pubDate>Thu, 10 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-6-security/</guid>
+      <description>👊 👏 🚨 Grootste DDOS-website opgerold. &amp;ldquo;Laat dit een waarschuwing zijn aan ieder die wil DDoSsen.&amp;rdquo; Goede actie eind april van de Nationale Politie in samenwerking met een hele rits andere korpsen en diensten. En met AMA op Reddit - waar de doelgroep ook rondhangt en die je achteraf in het geheel kunt teruglezen. Slim!
+🔫 In de VS wil een aantal bedrijven de mogelijkheid krijgen terug te slaan wanneer ze gehackt worden.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 5 (Privacy)</title>
+      <link>/linklove-no.-5-privacy/</link>
+      <pubDate>Thu, 03 May 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-5-privacy/</guid>
+      <description>Zoek je een machine die je zoekgeschiedenis &amp;lt;&amp;gt; bijhoudt? Die is er, in de vorm van DuckDuckGo. Ze houden letterlijk niets bij. Het mooiste bewijs dat het opbouwen van een persoonlijk profiel ook helemaal niet nodig is om als search engine goed te kunnen werken. Persoonlijke ervaring: een aantal jaar terug waren hun resultaten nog zo-zo, nu vind ik meestal direct wat nodig is. Op het ondergewaardeerde Quora vind je de ultieme alles-wat-je-nooit-durfde-te-vragen over DDG: &amp;rdquo; Why should I use DuckDuckGo instead of Google?</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 4 (Big Tech)</title>
+      <link>/linklove-no.-4-big-tech/</link>
+      <pubDate>Mon, 30 Apr 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-4-big-tech/</guid>
+      <description>👽 _&amp;ldquo;AI will make workplaces more efficient, safer and much creepier&amp;ldquo; Een wat duister stuk bij het altijd diepgravende Economist over hoe beslissingen ondersteund door data (hallo algoritmen!) de toekomstige werkplek gaan bepalen
+📺 Over die algoritmen gesproken: heb je die aflevering van Tegenlicht daarover al gezien? &amp;ldquo;Verslaafd aan het algoritme&amp;rdquo; gaat over hoe &amp;rdquo;(&amp;hellip;) algoritmes steeds vaker de grote beslissingen in ons leven [bepalen]. Want ze zijn sneller en efficiënter dan mensen.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 3 (Aandachtsmanagement)</title>
+      <link>/linklove-no.-3-aandachtsmanagement/</link>
+      <pubDate>Fri, 27 Apr 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-3-aandachtsmanagement/</guid>
+      <description>📫 Nieuw: e-mails met snooze functie bij GMail. Maar ff serieus, wanneer je nu al geen tijd hebt voor al je :&amp;hellip;..: mails, heb je dat in de toekomst ook niet. Punt. Die selfdestructing e-mail echter, lijken me bijzonder fijn 🔥
+📚 Hoe lees je een non-fictieboek? Tja, van voor naar achter zul je zeggen. Toch komt bij het echt lezen en goed begrijpen van wat de auteur wil overbrengen iets meer kijken.</description>
+    </item>
+    
+    <item>
+      <title>Denkers en doeners: Naval Ravikant</title>
+      <link>/denkers-en-doeners-naval-ravikant/</link>
+      <pubDate>Wed, 25 Apr 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/denkers-en-doeners-naval-ravikant/</guid>
+      <description>🔥 ik kwam ergens een verwijzing tegen naar een podcast met mij onbekende maar markante persoonlijkheid Naval Ravikant van het mij tevens onbekende maar blijkbaar populaire blog Farnam Street van Shane Parrish. Naval is een grote investeerder in Silicon Valley o.a. in Twitter en Uber. Hij twittert op het account @naval. Ravikant steekt dan weliswaar geld in soms dubieuze taxi- en andere bedrijven en is invested in de bitcoinhype. Wel is het een inspirerende persoonlijkheid.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 1 (BigTech)</title>
+      <link>/linklove-no.-1-bigtech/</link>
+      <pubDate>Tue, 24 Apr 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-1-bigtech/</guid>
+      <description>&amp;rdquo; Google and Facebook have massive server farms. Have you ever stopped to ask yourself what it is that they’re farming? &amp;ldquo;
+Aral Balkan
+ 😧 Dieven - Op Facebook blijkt een werkelijk schrikbarend groot aantal criminele groepen te bestaan die ongebreideld creditcard- en andere gegevens uitwisselen en verkopen. Zo blijkt uit een rondgang onlangs door beveiligingsonderzoeker Brian Krebs, door gewoon een paar uurtjes rondneuzen en de juiste zoektermen bovenin de site in te voeren.</description>
+    </item>
+    
+    <item>
+      <title>Linklove no. 2 (Security)</title>
+      <link>/linklove-no.-2-security/</link>
+      <pubDate>Tue, 24 Apr 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-2-security/</guid>
+      <description>💻 Hack! - Een tijdje terug bleek een populaire opschoontool voor Windows computer genaamd CCleamer zelf besmet met malware. De download waar de malware in verstopt zat werd nota bene geleverd door Avast, zelf een beveiligingsbedrijf. Zelf gebruik ik CCleaner ook, het werkt prima. Daarom schrok ik destijds dan ook van het bericht hierover. Gelukkig gebruikte ik net aan niet de besmette versie. Nu is er een bloedstollende en uitgebreide analyse verschenen van de CCleamer hack waarin verteld wordt hoe de hackers te werk gingen, wie ze op het ook hadden, en hoe dit zo kon gebeuren.</description>
+    </item>
+    
+    <item>
+      <title>Datascience coming up</title>
+      <link>/datascience-coming-up/</link>
+      <pubDate>Mon, 23 Apr 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/datascience-coming-up/</guid>
+      <description>Dit is een zogenaamde placeholder zodat je geen 404-melding krijgt 😎
+Binnenkort meer!</description>
+    </item>
+    
+    <item>
+      <title>Veel mis met het businessmodel van Facebook</title>
+      <link>/veel-mis-met-het-businessmodel-van-facebook/</link>
+      <pubDate>Mon, 23 Apr 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/veel-mis-met-het-businessmodel-van-facebook/</guid>
+      <description>😡 Er is veel #ophef over dat vermaledijde Facebook!!1!!1 Toch blijven we massaal verslaafd aan wat iemand de digitale sigaret noemde (wie ook alweer?). En je hoort vaak &amp;ldquo;ach inderdaad. Ik deel gewoon niet teveel persoonlijke details. En ze moeten toch ergens hun geld mee verdienen? Nou dat is waar. Maar als je dan ziet wààr dat geld vandaan moet komen rijzen je de haren te berge. Facebook bleek namelijk dat jongeren die zichzelf waardeloos voelen specifiek op dat vlak te benaderen om hun &amp;lsquo;passende&amp;rsquo; advertenties door de strot te duwen.</description>
+    </item>
+    
+    <item>
+      <title>Over deze website</title>
+      <link>/about/</link>
+      <pubDate>Sun, 22 Apr 2018 16:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Deze nieuwe site op een subdomein van mijn hoofdwebsite is bedoeld voor alles wat niet onder mijn huidige werkzaamheden als trainer rond productiviteit, aandacht en timemanagement valt. Jaren terug hield ik als software ontwikkelaar een behoorlijk populair linkblog bij rond alles over mijn vak van destijds, zie deze trip down memory lane 😎 . Intussen blijf ik erg geïnteresseerd rond allerlei onderwerpen van de macht van de grote techbedrijven, privacy, computerbeveiliging, cartografische kaarten (GIS) en wat tegenwoordig datascience genoemd wordt: het op een slimme manier halen van nuttige informatie uit bedrijfsdata; maar of je dat nu wetenschap kunt noemen is onderwerp van discussie&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Na alle ophef: Facebook opsplitsen dan maar?</title>
+      <link>/na-alle-ophef-facebook-opsplitsen-dan-maar/</link>
+      <pubDate>Sun, 22 Apr 2018 13:00:00 +0000</pubDate>
+      
+      <guid>/na-alle-ophef-facebook-opsplitsen-dan-maar/</guid>
+      <description>Facebook stelt kennis over haar gebruikers massaal beschikbaar aan bedrijven (klanten!) die haar daarvoor betaalden. Cambridge Analytica heeft via een sluipweg zelf die data verzameld en voor politieke doeleinden en eigen gewin ingezet. We wisten het eigenlijk al lang, maar roepen er nu massaal schande over. Cabaretiers halen mensen over om massaal het sociale netwerk te verlaten. Gaat dat helpen of vindt Facebook het stiekem prima dat 99.8% van alle Nederlandse gebruikers vaak wel boos is maar gewoon blijft hangen?</description>
+    </item>
+    
+    <item>
+      <title>Predictive policing: handig hulpmiddel of nachtmerrie?</title>
+      <link>/predictive-policing-handig-hulpmiddel-of-nachtmerrie/</link>
+      <pubDate>Sun, 22 Apr 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/predictive-policing-handig-hulpmiddel-of-nachtmerrie/</guid>
+      <description>Een mooi staaltje Zwitsers speurwerk van de SRF over predictive policing bij de mensen thuis. Het politiewerk laten ondersteunen door voorspellende computeralgoritmes is daar na 1 onvoorziene dramatische schietpartij sinds 2011 groot aan het worden. Het speurwerk betreft een systeem dat via 39 ja/nee vragen met een uitspraak komt of jij een gevaar vormt voor je partner. Ofwel drink je veel, recent werkloos geraakt door je vrouw uit huis gezet en daar chagrijnig over?</description>
+    </item>
+    
+  </channel>
+</rss>

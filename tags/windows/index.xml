@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Arjans Wereld</title>
+    <link>/tags/windows/</link>
+    <description>Recent content in Windows on Arjans Wereld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Tue, 24 Apr 2018 09:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linklove no. 2 (Security)</title>
+      <link>/linklove-no.-2-security/</link>
+      <pubDate>Tue, 24 Apr 2018 09:00:00 +0000</pubDate>
+      
+      <guid>/linklove-no.-2-security/</guid>
+      <description>💻 Hack! - Een tijdje terug bleek een populaire opschoontool voor Windows computer genaamd CCleamer zelf besmet met malware. De download waar de malware in verstopt zat werd nota bene geleverd door Avast, zelf een beveiligingsbedrijf. Zelf gebruik ik CCleaner ook, het werkt prima. Daarom schrok ik destijds dan ook van het bericht hierover. Gelukkig gebruikte ik net aan niet de besmette versie. Nu is er een bloedstollende en uitgebreide analyse verschenen van de CCleamer hack waarin verteld wordt hoe de hackers te werk gingen, wie ze op het ook hadden, en hoe dit zo kon gebeuren.</description>
+    </item>
+    
+  </channel>
+</rss>
