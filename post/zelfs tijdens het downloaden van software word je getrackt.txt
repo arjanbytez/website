@@ -1,0 +1,5 @@
+:...: Software leveranciers blijken unieke identificerende informatie in software downloads. Die ChromeSetup.exe is voor jou een andere dan voor je buurman. Het blijkt dat onder meer je IP-adres namelijk in de download zelf verwerkt zit; dit gebeurt achter de schermen op het moment dat je de download start, en dus zonder dat je dat zelf ziet, tenzij je dat met ingewikkelde technische tools uit de software weet te peuteren. Het blog Ctrl [deed precies dat](https://www.ctrl.blog/entry/software-downloads-uids), waardoor ik je bovenstaande kan mededelen. 
+
+Ik heb aardig wat ervaring in wat er online allemaal over ons verzameld wordt, maar dit was toch nieuw voor me. Gelukkig is er iets aan te doen: gebruik een application firewall en download bijvoorbeeld vanaf een privétab in je browser. Meer tips vind je [bij de bron]((https://www.ctrl.blog/entry/limit-download-tracking).
+
+_[via ghacks.net](https://www.ghacks.net/2018/04/24/of-software-downloads-and-unique-identifiers/)_
